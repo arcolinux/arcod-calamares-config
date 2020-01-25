@@ -475,9 +475,6 @@
     - evince
     - glances
     - glxinfo
-    - gnome-screenshot
-    - gnome-software
-    - gnome-software-packagekit-plugin
     - grsync
     - gtop
     - gufw
