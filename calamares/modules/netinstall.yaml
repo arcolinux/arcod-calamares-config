@@ -66,13 +66,329 @@
   selected: false
   packages:
     - amd-ucode
-- name: "Libre Office Still"
-  description: "Installs libre office still - stable branch - conflicts with fresh"
+- name: "Login Manager: Lightdm"
+  description: "Installs lightdm - user enables lightdm manually"
   critical: false
   hidden: false
   selected: false
   packages:
-    - libreoffice-still
+    - lightdm
+    - arcolinux-lightdm-gtk-greeter
+    - arcolinux-lightdm-gtk-greeter-settings
+- name: "Login Manager: Sddm"
+  description: "Installs sddm - user enables lightdm manually"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - sddm
+- name: "Login Manager: Gdm"
+  description: "Installs gdm - user enables lightdm manually"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gdm
+- name: "Login Manager: Lxdm"
+  description: "Installs lxdm - user enables lightdm manually"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lxdm
+- name: "Desktop: Awesome"
+  description: "Installs awesome desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - awesome
+    - vicious
+    - arcolinux-awesome-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - arcolinux-config-awesome-git
+    - arcolinux-awesome-dconf-git
+- name: "Desktop: Bspwm"
+  description: "Installs bspwm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - bspwm
+    - sxhkd
+    - awesome-terminal-fonts
+    - polybar
+    - sutils-git
+    - xtitle-git
+    - arcolinux-bspwm-git
+    - arcolinux-polybar-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - arcolinux-config-bspwm-git
+    - arcolinux-bspwm-dconf-git
+- name: "Desktop: Budgie"
+  description: "Installs budgie desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - budgie-desktop
+    - budgie-extras
+    - gnome
+    - gnome-extra
+    - arcolinux-budgie-git
+    - arcolinux-config-budgie-git
+    - arcolinux-budgie-dconf-git
+- name: "Desktop: Cinnamon"
+  description: "Installs cinnamon desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cinnamon
+    - nemo-fileroller
+    - cinnamon-translations
+    - gnome-terminal
+    - arcolinux-cinnamon-git
+    - arcolinux-config-cinnamon-git
+    - arcolinux-cinnamon-dconf-git
+- name: "Desktop: Deepin"
+  description: "Installs deepin desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - deepin
+    - deepin-extra
+    - arcolinux-deepin-git
+    - arcolinux-config-deepin-git
+    - arcolinux-deepin-dconf-git
+- name: "Desktop: Gnome"
+  description: "Installs gnome desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gnome
+    - gnome-extra
+    - arcolinux-gnome-git
+    - arcolinux-config-gnome-git
+    - arcolinux-gnome-dconf-git
+- name: "Desktop: Herbstluftwm"
+  description: "Installs herbstluftwm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - herbstluftwm
+    - sxhkd
+    - xtitle-git
+    - polybar
+    - arcolinux-herbstluftwm-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - arcolinux-polybar-git
+    - arcolinux-config-herbstluftwm-git
+    - arcolinux-herbstluftwm-dconf-git
+- name: "Desktop: i3"
+  description: "Installs i3 desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - i3-gaps
+    - i3status
+    - dmenu
+    - arcolinux-i3wm-git
+    - arcolinux-config-i3wm-git
+    - arcolinux-i3wm-dconf-git
+- name: "Desktop: Lxqt"
+  description: "Installs lxqt desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lxqt
+    - pavucontrol-qt
+    - obconf-qt
+    - xscreensaver
+    - arcolinux-lxqt-git
+    - arcolinux-config-lxqt-git
+    - arcolinux-lxqt-dconf-git
+- name: "Desktop: Mate"
+  description: "Installs mate desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - mate
+    - mate-extra
+    - arcolinux-mate-git
+    - arcolinux-config-mate-git
+    - arcolinux-mate-dconf-git
+- name: "Desktop: Openbox"
+  description: "Installs openbox desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - openbox
+    - obmenu-generator
+    - gtk2-perl
+    - obconf
+    - yad
+    - obmenu3
+    - perl-linux-desktopfiles
+    - arcolinux-openbox-git
+    - arcolinux-obmenu-generator-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - arcolinux-pipemenus-git
+    - arcolinux-config-openbox-git
+    - arcolinux-openbox-dconf-git
+- name: "Desktop: Plasma"
+  description: "Installs plasma desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - plasma-meta
+    - packagekit-qt5
+    - kde-applications-meta
+    - partitionmanager
+    - ktorrent
+    - kdeconnect
+    - systemd-kcm
+    - ocs-url
+    - arcolinux-plasma-git
+    - arcolinux-config-plasma-git
+    - arcolinux-plasma-dconf-git
+- name: "Desktop: Qtile"
+  description: "Installs qtile desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - qtile
+    - python-psutil
+    - arcolinux-qtile-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - arcolinux-config-qtile-git
+    - arcolinux-qtile-dconf-git
+- name: "Desktop: Xfce"
+  description: "Installs xfce desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xfce4
+    - xfce4-goodies
+    - arcolinux-xfce-git
+    - arcolinux-config-xfce-git
+    - arcolinux-xfce-dconf-git
+- name: "Desktop: Xmonad"
+  description: "Installs xmonad desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xmonad
+    - xmonad-contrib
+    - haskell-dbus
+    - xmonad-utils
+    - polybar
+    - xmonad-log
+    - perl-www-aur
+    - perl-checkupdates-aur
+    - arcolinux-xmonad-polybar-git
+    - arcolinux-polybar-git
+    - arcolinux-config-xmonad-git
+    - arcolinux-xmonad-dconf-git
+- name: "Accessories"
+  description: "Accessories"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - font-manager-git
+    - galculator
+    - flameshot
+    - plank
+    - arcolinux-plank-themes-git
+    - screenkey-git
+    - arcolinux-variety-git
+    - variety
+    - xfburn
+- name: "Development"
+  description: "Development"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - atom
+    - code
+    - geany
+    - geany-plugins
+    - kdevelop
+- name: "Games"
+  description: "Games"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-meta-steam
+- name: "Graphics"
+  description: "Graphics"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - blender
+    - darktable
+    - digikam
+    - gimp
+    - gpick
+    - inkscape
+    - krita
+    - nitrogen
+    - nomacs
+    - pinta
+    - ristretto
+- name: "Fun"
+  description: "Fun"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-meta-fun
+- name: "Internet"
+  description: "Internet"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - brave
+    - chromium
+    - deluge
+    - discord
+    - dropbox
+    - evolution
+    - falkon
+    - filezilla
+    - firefox
+    - geary
+    - hexchat
+    - insync
+    - ktorrent
+    - opera
+    - pidgin
+    - qbittorrent
+    - telegram-desktop
+    - thunderbird
+    - transmission-gtk
+    - vivaldi
 - name: "Libre Office Fresh"
   description: "Installs libre office fresh - feature branch - conflicts with still"
   critical: false
@@ -80,6 +396,88 @@
   selected: false
   packages:
     - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+    - hunspell-$LOCALE
+- name: "Libre Office Still"
+  description: "Installs libre office still - stable branch - conflicts with fresh"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - libreoffice-still
+    - libreoffice-still-$LOCALE
+    - hunspell-$LOCALE
+- name: "Multimedia"
+  description: "Multimedia"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - audacious
+    - audacity
+    - celluloid
+    - clementine
+    - deadbeef
+    - elisa
+    - guvcview
+    - handbrake
+    - kdenlive
+    - lollypop
+    - obs-studio
+    - openshot
+    - mpv
+    - peek
+    - pragha
+    - rhythmbox
+    - simplescreenrecorder
+    - soundconverter
+    - smplayer
+    - spotify
+    - spotifywm-git
+    - vlc
+- name: "Themes"
+  description: "Themes"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - adapta-gtk-theme
+    - arc-icon-theme
+    - arcolinux-arc-themes-nico-git
+    - faba-icon-theme
+    - moka-icon-theme
+    - papirus-icon-theme
+- name: "Utilities"
+  description: "Utilities"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - baobab
+    - glances
+    - grsync
+    - gtop
+    - powertop
+    - timeshift
+- name: "Virtualbox for Linux kernel"
+  description: "Installs virtualbox for linux kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - virtualbox
+    - virtualbox-host-dkms
+    - linux-headers
+- name: "Virtualbox for Linux-lts kernel"
+  description: "Installs virtualbox for linux-lts kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - virtualbox
+    - virtualbox-host-dkms
+    - linux-lts-headers
+    - linux-lts
 - name: "WPS Office"
   description: "Installs wps office"
   critical: false
