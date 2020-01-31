@@ -272,6 +272,7 @@
   packages:
     - qtile
     - python-psutil
+    - awesome-terminal-fonts
     - arcolinux-qtile-git
     - arcolinux-oblogout
     - arcolinux-oblogout-themes-git
@@ -302,6 +303,7 @@
     - xmonad-log
     - perl-www-aur
     - perl-checkupdates-aur
+    - awesome-terminal-fonts       
     - arcolinux-xmonad-polybar-git
     - arcolinux-polybar-git
     - arcolinux-config-xmonad-git
