@@ -76,21 +76,21 @@
     - arcolinux-lightdm-gtk-greeter
     - arcolinux-lightdm-gtk-greeter-settings
 - name: "Login Manager: Sddm"
-  description: "Installs sddm - user enables lightdm manually"
+  description: "Installs sddm - user enables sddm manually"
   critical: false
   hidden: false
   selected: false
   packages:
     - sddm
 - name: "Login Manager: Gdm"
-  description: "Installs gdm - user enables lightdm manually"
+  description: "Installs gdm - user enables gdm manually"
   critical: false
   hidden: false
   selected: false
   packages:
     - gdm
 - name: "Login Manager: Lxdm"
-  description: "Installs lxdm - user enables lightdm manually"
+  description: "Installs lxdm - user enables lxdm manually"
   critical: false
   hidden: false
   selected: false
