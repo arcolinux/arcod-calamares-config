@@ -308,6 +308,8 @@
     - arcolinux-polybar-git
     - arcolinux-config-xmonad-git
     - arcolinux-xmonad-dconf-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
 - name: "Accessories"
   description: "Accessories"
   critical: false
