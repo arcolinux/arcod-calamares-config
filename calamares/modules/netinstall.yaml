@@ -303,7 +303,7 @@
     - xmonad-log
     - perl-www-aur
     - perl-checkupdates-aur
-    - awesome-terminal-fonts       
+    - awesome-terminal-fonts
     - arcolinux-xmonad-polybar-git
     - arcolinux-polybar-git
     - arcolinux-config-xmonad-git
@@ -460,6 +460,7 @@
     - adapta-gtk-theme
     - arc-icon-theme
     - arcolinux-arc-themes-nico-git
+    - bibata-cursor-theme
     - faba-icon-theme
     - gnome-icon-theme
     - moka-icon-theme
