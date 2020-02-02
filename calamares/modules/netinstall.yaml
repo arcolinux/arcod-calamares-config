@@ -66,7 +66,7 @@
   selected: false
   packages:
     - amd-ucode
-- name: "Bluetooth"
+- name: "Bluetooth Support"
   description: "Support for bluetooth - enable service"
   hidden: false
   selected: false
@@ -77,7 +77,7 @@
     - bluez-libs
     - bluez-utils
     - blueberry
-- name: "Laptop support"
+- name: "Laptop Support"
   description: "Support for laptops - enable service"
   hidden: false
   selected: false
@@ -93,7 +93,7 @@
     - avahi
     - nss-mdns
     - gvfs-smb
-- name: "Printing-Support"
+- name: "Printing Support"
   description: "Support for printing/cups - enable service"
   hidden: false
   selected: false
