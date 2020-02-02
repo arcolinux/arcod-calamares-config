@@ -66,15 +66,6 @@
   selected: false
   packages:
     - amd-ucode
-- name: "Login Manager: Lightdm"
-  description: "Installs lightdm - user enables lightdm manually"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - lightdm
-    - arcolinux-lightdm-gtk-greeter
-    - arcolinux-lightdm-gtk-greeter-settings
 - name: "Bluetooth"
   description: "Support for bluetooth - enable service"
   hidden: false
@@ -152,6 +143,15 @@
     - gst-plugins-ugly
     - volumeicon
     - playerctl
+- name: "Login Manager: Lightdm"
+  description: "Installs lightdm - user enables lightdm manually"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lightdm
+    - arcolinux-lightdm-gtk-greeter
+    - arcolinux-lightdm-gtk-greeter-settings
 - name: "Login Manager: Sddm"
   description: "Installs sddm - user enables sddm manually"
   critical: false
