@@ -330,6 +330,8 @@
   hidden: false
   selected: false
   packages:
+    - kdeadmin-meta
+    - kdebase-meta
     - plasma-meta
     - packagekit-qt5
     - kde-applications-meta
