@@ -567,6 +567,7 @@
     - gufw
     - hddtemp
     - lm_sensors
+    - open-vm-tools
     - powertop
     - simple-scan
     - timeshift
