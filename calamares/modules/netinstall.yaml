@@ -330,9 +330,9 @@
   hidden: false
   selected: false
   packages:
+    - plasma-meta
     - kdeadmin-meta
     - kdebase-meta
-    - plasma-meta
     - packagekit-qt5
     - kde-applications-meta
     - partitionmanager
