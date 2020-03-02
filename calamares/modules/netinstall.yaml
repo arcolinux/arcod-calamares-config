@@ -12,6 +12,20 @@
   selected: false
   packages:
     - linux-lts
+- name: "Linux-hardened kernel without any nvidia"
+  description: "Installs only the linux-hardened kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-hardened
+- name: "Linux-zen kernel without any nvidia"
+  description: "Installs only the linux-zen kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-zen
 - name: "Nvidia with linux kernel"
   description: "Installs nvidia and linux kernel - check Arch wiki nvidia"
   critical: false
@@ -152,6 +166,7 @@
     - lightdm
     - arcolinux-lightdm-gtk-greeter
     - arcolinux-lightdm-gtk-greeter-settings
+    - arcolinux-wallpapers-git
 - name: "Login Manager: Sddm"
   description: "Installs sddm - user enables sddm manually"
   critical: false
@@ -159,6 +174,7 @@
   selected: false
   packages:
     - sddm
+    - arcolinux-wallpapers-git
 - name: "Login Manager: Gdm"
   description: "Installs gdm - user enables gdm manually"
   critical: false
@@ -166,6 +182,7 @@
   selected: false
   packages:
     - gdm
+    - arcolinux-wallpapers-git
 - name: "Login Manager: Lxdm"
   description: "Installs lxdm - user enables lxdm manually"
   critical: false
@@ -173,6 +190,7 @@
   selected: false
   packages:
     - lxdm
+    - arcolinux-wallpapers-git
 - name: "Desktop: Awesome"
   description: "Installs awesome desktop"
   critical: false
@@ -181,6 +199,7 @@
   packages:
     - awesome
     - vicious
+    - dmenu
     - arcolinux-awesome-git
     - arcolinux-oblogout
     - arcolinux-oblogout-themes-git
@@ -194,6 +213,7 @@
   packages:
     - bspwm
     - sxhkd
+    - dmenu
     - awesome-terminal-fonts
     - polybar
     - sutils-git
@@ -260,6 +280,7 @@
   packages:
     - herbstluftwm
     - sxhkd
+    - dmenu
     - xtitle-git
     - polybar
     - arcolinux-herbstluftwm-git
@@ -315,6 +336,7 @@
     - gtk2-perl
     - obconf
     - yad
+    - dmenu
     - obmenu3
     - perl-linux-desktopfiles
     - arcolinux-openbox-git
@@ -350,6 +372,7 @@
   selected: false
   packages:
     - qtile
+    - dmenu
     - python-psutil
     - awesome-terminal-fonts
     - arcolinux-qtile-git
@@ -376,6 +399,7 @@
   packages:
     - xmonad
     - xmonad-contrib
+    - dmenu
     - haskell-dbus
     - xmonad-utils
     - polybar
@@ -404,6 +428,14 @@
     - arcolinux-variety-git
     - variety
     - xfburn
+- name: "Calligra"
+  description: "Office Suite"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - calligra
+    - calligra-plan
 - name: "Development"
   description: "Development"
   critical: false
@@ -422,10 +454,16 @@
   selected: false
   packages:
     - adobe-source-sans-pro-fonts
+    - awesome-terminal-fonts
     - terminus-font
     - ttf-bitstream-vera
+    - ttf-droid
+    - ttf-fira-code
+    - ttf-font-awesome
+    - ttf-hack
     - ttf-inconsolata
     - ttf-liberation
+    - ttf-roboto
     - ttf-ubuntu-font-family
 - name: "Games"
   description: "Games"
@@ -472,7 +510,7 @@
     - evolution
     - falkon
     - filezilla
-    - firefox
+    - firefox-i18n-$LOCALE
     - geary
     - hexchat
     - insync
@@ -508,6 +546,7 @@
   hidden: false
   selected: false
   packages:
+    - ardour
     - audacious
     - audacity
     - celluloid
@@ -518,6 +557,7 @@
     - handbrake
     - kdenlive
     - lollypop
+    - lmms
     - obs-studio
     - openshot
     - mpv
@@ -562,6 +602,8 @@
     - baobab
     - catfish
     - evince
+    - gitahead-bin
+    - gitfiend
     - glances
     - glxinfo
     - grsync
@@ -570,8 +612,10 @@
     - hddtemp
     - lm_sensors
     - open-vm-tools
+    - pamac-aur
     - powertop
     - simple-scan
+    - systemd-manager
     - timeshift
     - vnstat
     - wttr
