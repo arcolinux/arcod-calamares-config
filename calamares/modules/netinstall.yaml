@@ -46,26 +46,6 @@
     - nvidia-lts
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-390xx with linux kernel"
-  description: "Installs nvidia-390xx and linux kernel - check Arch wiki nvidia"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux
-    - nvidia-390xx
-    - nvidia-390xx-settings
-    - nvidia-390xx-utils
-- name: "Nvidia-390xx with linux-lts kernel"
-  description: "Installs nvidia-390xx-lts and linux-lts kernel - check Arch wiki nvidia"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-lts
-    - nvidia-390xx-lts
-    - nvidia-390xx-settings
-    - nvidia-390xx-utils
 - name: "Intel-ucode"
   description: "Installs intel-ucode - see Arch wiki microcode"
   critical: false
