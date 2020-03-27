@@ -224,6 +224,7 @@
     - arcolinux-pipemenus-git
     - cryfs
     - breeze
+    - surfn-arc-breeze-icons-git
     - arcolinux-arc-kde
 - name: "Desktop: Qtile"
   description: "Installs qtile desktop"
@@ -257,7 +258,7 @@
     - arcolinux-xfce-git
     - arcolinux-config-xfce-git
     - arcolinux-xfce-dconf-git
-    - dmenu    
+    - dmenu
 - name: "Desktop: Xmonad"
   description: "Installs xmonad desktop"
   critical: false
