@@ -1,0 +1,288 @@
+- name: "Desktop: Awesome"
+  description: "Installs awesome desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - awesome
+    - vicious
+    - dmenu
+    - arcolinux-awesome-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - arcolinux-config-awesome-git
+    - arcolinux-awesome-dconf-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-xfce-git
+    - xfce4-terminal
+    - picom
+- name: "Desktop: Bspwm"
+  description: "Installs bspwm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - bspwm
+    - sxhkd
+    - dmenu
+    - awesome-terminal-fonts
+    - polybar
+    - sutils-git
+    - xtitle-git
+    - arcolinux-bspwm-git
+    - arcolinux-polybar-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - arcolinux-config-bspwm-git
+    - arcolinux-bspwm-dconf-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-xfce-git
+    - xfce4-terminal
+    - picom
+- name: "Desktop: Budgie"
+  description: "Installs budgie desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - budgie-desktop
+    - budgie-extras
+    - gnome
+    - gnome-extra
+    - arcolinux-budgie-git
+    - arcolinux-config-budgie-git
+    - arcolinux-budgie-dconf-git
+    - guake
+- name: "Desktop: Cinnamon"
+  description: "Installs cinnamon desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cinnamon
+    - nemo-fileroller
+    - cinnamon-translations
+    - gnome-terminal
+    - arcolinux-cinnamon-git
+    - arcolinux-config-cinnamon-git
+    - arcolinux-cinnamon-dconf-git
+    - xfce4-terminal
+- name: "Desktop: Deepin"
+  description: "Installs deepin desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - deepin
+    - deepin-extra
+    - arcolinux-deepin-git
+    - arcolinux-config-deepin-git
+    - arcolinux-deepin-dconf-git
+- name: "Desktop: Gnome"
+  description: "Installs gnome desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gnome
+    - gnome-extra
+    - arcolinux-gnome-git
+    - arcolinux-config-gnome-git
+    - arcolinux-gnome-dconf-git
+    - guake
+- name: "Desktop: Herbstluftwm"
+  description: "Installs herbstluftwm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - herbstluftwm
+    - sxhkd
+    - dmenu
+    - xtitle-git
+    - polybar
+    - arcolinux-herbstluftwm-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - arcolinux-polybar-git
+    - arcolinux-config-herbstluftwm-git
+    - arcolinux-herbstluftwm-dconf-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-xfce-git
+    - xfce4-terminal
+    - picom
+- name: "Desktop: i3"
+  description: "Installs i3 desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - i3-gaps
+    - i3status
+    - dmenu
+    - arcolinux-i3wm-git
+    - arcolinux-config-i3wm-git
+    - arcolinux-i3wm-dconf-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-xfce-git
+    - xfce4-terminal
+    - picom
+- name: "Desktop: Lxqt"
+  description: "Installs lxqt desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lxqt
+    - pavucontrol-qt
+    - obconf-qt
+    - xscreensaver
+    - arcolinux-lxqt-git
+    - arcolinux-config-lxqt-git
+    - arcolinux-lxqt-dconf-git
+    - lxqt-arc-dark-theme-git
+    - arcolinux-qt5-git
+    - xfce4-terminal
+    - dmenu
+- name: "Desktop: Mate"
+  description: "Installs mate desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - mate
+    - mate-extra
+    - arcolinux-mate-git
+    - arcolinux-config-mate-git
+    - arcolinux-mate-dconf-git
+    - xfce4-terminal
+- name: "Desktop: Openbox"
+  description: "Installs openbox desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - openbox
+    - obmenu-generator
+    - gtk2-perl
+    - obconf
+    - yad
+    - dmenu
+    - obmenu3
+    - tint2
+    - arcolinux-tint2-git
+    - arcolinux-tint2-themes-git
+    - nitrogen
+    - arcolinux-nitrogen-git
+    - perl-linux-desktopfiles
+    - arcolinux-openbox-git
+    - arcolinux-obmenu-generator-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - arcolinux-pipemenus-git
+    - arcolinux-config-openbox-git
+    - arcolinux-openbox-dconf-git
+    - arcolinux-common-git
+    - xcape
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-xfce-git
+    - xfce4-terminal
+    - picom
+- name: "Desktop: Plasma"
+  description: "Installs plasma desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - plasma-meta
+    - kdeadmin-meta
+    - kdebase-meta
+    - kde-applications-meta
+    - packagekit-qt5
+    - partitionmanager
+    - ktorrent
+    - kdeconnect
+    - systemd-kcm
+    - ocs-url
+    - arcolinux-plasma-git
+    - arcolinux-config-plasma-git
+    - arcolinux-plasma-dconf-git
+    - arcolinux-root-git
+    - conky-lua-archers
+    - arcolinux-conky-collection-plasma-git
+    - yad
+    - arcolinux-pipemenus-git
+    - cryfs
+    - breeze
+    - arcolinux-arc-kde
+- name: "Desktop: Qtile"
+  description: "Installs qtile desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - qtile
+    - dmenu
+    - python-psutil
+    - awesome-terminal-fonts
+    - arcolinux-qtile-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - arcolinux-config-qtile-git
+    - arcolinux-qtile-dconf-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-xfce-git
+    - xfce4-terminal
+    - picom
+- name: "Desktop: Xfce"
+  description: "Installs xfce desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xfce4
+    - xfce4-goodies
+    - arcolinux-xfce-git
+    - arcolinux-config-xfce-git
+    - arcolinux-xfce-dconf-git
+    - dmenu    
+- name: "Desktop: Xmonad"
+  description: "Installs xmonad desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xmonad
+    - xmonad-contrib
+    - dmenu
+    - haskell-dbus
+    - xmonad-utils
+    - polybar
+    - xmonad-log
+    - perl-www-aur
+    - perl-checkupdates-aur
+    - awesome-terminal-fonts
+    - arcolinux-xmonad-polybar-git
+    - arcolinux-polybar-git
+    - arcolinux-config-xmonad-git
+    - arcolinux-xmonad-dconf-git
+    - arcolinux-oblogout
+    - arcolinux-oblogout-themes-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-xfce-git
+    - xfce4-terminal
+    - picom
