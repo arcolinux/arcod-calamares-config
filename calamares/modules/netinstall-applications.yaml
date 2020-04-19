@@ -17,7 +17,6 @@
     - screenkey-git
     - variety
     - arcolinux-variety-git
-    - vim
     - vim-plugins
     - xfburn
 - name: "Conky"
