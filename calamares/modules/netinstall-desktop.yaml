@@ -135,6 +135,29 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+- name: "Desktop: Jwm"
+  description: "Installs jwm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - jwm
+    - xdgmenumaker
+    - sxhkd
+    - autorandr
+    - dmenu
+    - arcolinux-jwm-git
+    - arcolinux-config-jwm-git
+    - arcolinux-jwm-dconf-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-xfce-git
+    - xfce4-terminal
+    - xfce4-taskmanager
+    - xfce4-notifyd
+    - xfce4-screenshooter
+    - picom
 - name: "Desktop: Lxqt"
   description: "Installs lxqt desktop"
   critical: false
