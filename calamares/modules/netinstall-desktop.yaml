@@ -8,6 +8,7 @@
     - vicious
     - dmenu
     - arcolinux-awesome-git
+    - arcolinux-logout-git
     - arcolinux-oblogout
     - arcolinux-oblogout-themes-git
     - arcolinux-config-awesome-git
@@ -18,6 +19,8 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - arcolinux-tweak-tool-git
+    - arcolinux-local-xfce4-git
 - name: "Desktop: Bspwm"
   description: "Installs bspwm desktop"
   critical: false
@@ -33,6 +36,7 @@
     - xtitle-git
     - arcolinux-bspwm-git
     - arcolinux-polybar-git
+    - arcolinux-logout-git
     - arcolinux-oblogout
     - arcolinux-oblogout-themes-git
     - arcolinux-config-bspwm-git
@@ -43,6 +47,8 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - arcolinux-tweak-tool-git
+    - arcolinux-local-xfce4-git
 - name: "Desktop: Budgie"
   description: "Installs budgie desktop"
   critical: false
@@ -57,6 +63,7 @@
     - arcolinux-config-budgie-git
     - arcolinux-budgie-dconf-git
     - guake
+    - arcolinux-tweak-tool-git
 - name: "Desktop: Cinnamon"
   description: "Installs cinnamon desktop"
   critical: false
@@ -71,6 +78,7 @@
     - arcolinux-config-cinnamon-git
     - arcolinux-cinnamon-dconf-git
     - xfce4-terminal
+    - arcolinux-tweak-tool-git
 - name: "Desktop: Deepin"
   description: "Installs deepin desktop"
   critical: false
@@ -82,6 +90,7 @@
     - arcolinux-deepin-git
     - arcolinux-config-deepin-git
     - arcolinux-deepin-dconf-git
+    - arcolinux-tweak-tool-git
 - name: "Desktop: Gnome"
   description: "Installs gnome desktop"
   critical: false
@@ -94,6 +103,7 @@
     - arcolinux-config-gnome-git
     - arcolinux-gnome-dconf-git
     - guake
+    - arcolinux-tweak-tool-git
 - name: "Desktop: Herbstluftwm"
   description: "Installs herbstluftwm desktop"
   critical: false
@@ -106,6 +116,7 @@
     - xtitle-git
     - polybar
     - arcolinux-herbstluftwm-git
+    - arcolinux-logout-git
     - arcolinux-oblogout
     - arcolinux-oblogout-themes-git
     - arcolinux-polybar-git
@@ -117,6 +128,8 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - arcolinux-tweak-tool-git
+    - arcolinux-local-xfce4-git
 - name: "Desktop: i3"
   description: "Installs i3 desktop"
   critical: false
@@ -126,6 +139,7 @@
     - i3-gaps
     - i3status
     - dmenu
+    - arcolinux-logout-git
     - arcolinux-i3wm-git
     - arcolinux-config-i3wm-git
     - arcolinux-i3wm-dconf-git
@@ -135,6 +149,8 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - arcolinux-tweak-tool-git
+    - arcolinux-local-xfce4-git
 - name: "Desktop: Jwm"
   description: "Installs jwm desktop"
   critical: false
@@ -146,6 +162,7 @@
     - sxhkd
     - autorandr
     - dmenu
+    - arcolinux-logout-git
     - arcolinux-jwm-git
     - arcolinux-config-jwm-git
     - arcolinux-jwm-dconf-git
@@ -158,6 +175,8 @@
     - xfce4-notifyd
     - xfce4-screenshooter
     - picom
+    - arcolinux-tweak-tool-git
+    - arcolinux-local-xfce4-git
 - name: "Desktop: Lxqt"
   description: "Installs lxqt desktop"
   critical: false
@@ -175,6 +194,7 @@
     - arcolinux-qt5-git
     - xfce4-terminal
     - dmenu
+    - arcolinux-tweak-tool-git
 - name: "Desktop: Mate"
   description: "Installs mate desktop"
   critical: false
@@ -187,6 +207,7 @@
     - arcolinux-config-mate-git
     - arcolinux-mate-dconf-git
     - xfce4-terminal
+    - arcolinux-tweak-tool-git
 - name: "Desktop: Openbox"
   description: "Installs openbox desktop"
   critical: false
@@ -208,6 +229,7 @@
     - perl-linux-desktopfiles
     - arcolinux-openbox-git
     - arcolinux-obmenu-generator-git
+    - arcolinux-logout-git
     - arcolinux-oblogout
     - arcolinux-oblogout-themes-git
     - arcolinux-pipemenus-git
@@ -221,6 +243,8 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - arcolinux-tweak-tool-git
+    - arcolinux-local-xfce4-git
 - name: "Desktop: Plasma"
   description: "Installs plasma desktop"
   critical: false
@@ -249,6 +273,7 @@
     - breeze
     - surfn-arc-breeze-icons-git
     - arcolinux-arc-kde
+    - arcolinux-tweak-tool-git
 - name: "Desktop: Qtile"
   description: "Installs qtile desktop"
   critical: false
@@ -260,6 +285,7 @@
     - python-psutil
     - awesome-terminal-fonts
     - arcolinux-qtile-git
+    - arcolinux-logout-git
     - arcolinux-oblogout
     - arcolinux-oblogout-themes-git
     - arcolinux-config-qtile-git
@@ -270,6 +296,8 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - arcolinux-tweak-tool-git
+    - arcolinux-local-xfce4-git
 - name: "Desktop: Xfce"
   description: "Installs xfce desktop"
   critical: false
@@ -281,7 +309,10 @@
     - arcolinux-xfce-git
     - arcolinux-config-xfce-git
     - arcolinux-xfce-dconf-git
+    - arcolinux-logout-git
     - dmenu
+    - arcolinux-tweak-tool-git
+    - arcolinux-local-xfce4-git
 - name: "Desktop: Xmonad"
   description: "Installs xmonad desktop"
   critical: false
@@ -302,6 +333,7 @@
     - arcolinux-polybar-git
     - arcolinux-config-xmonad-git
     - arcolinux-xmonad-dconf-git
+    - arcolinux-logout-git
     - arcolinux-oblogout
     - arcolinux-oblogout-themes-git
     - thunar
@@ -310,3 +342,5 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - arcolinux-tweak-tool-git
+    - arcolinux-local-xfce4-git
