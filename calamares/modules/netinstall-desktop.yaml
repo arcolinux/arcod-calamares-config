@@ -19,6 +19,7 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - feh
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: Bspwm"
@@ -47,6 +48,7 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - feh
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: Budgie"
@@ -128,6 +130,7 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - feh
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: i3"
@@ -149,6 +152,7 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - feh
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: Jwm"
@@ -175,6 +179,7 @@
     - xfce4-notifyd
     - xfce4-screenshooter
     - picom
+    - feh
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: Lxqt"
@@ -296,6 +301,7 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - feh
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: Xfce"
@@ -342,5 +348,6 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - feh
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
