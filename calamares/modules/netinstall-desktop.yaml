@@ -267,6 +267,8 @@
     - xfce4-terminal
     - xfce4-taskmanager
     - xfce4-settings
+    - gnome-screenshot
+    - xfce4-screenshooter
     - picom
     - gmrun
     - arcolinux-tweak-tool-git
