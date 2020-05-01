@@ -250,7 +250,7 @@
     - nitrogen
     - arcolinux-nitrogen-git
     - perl-linux-desktopfiles
-    - arcolinux-openbox-git
+    - arcolinux-openboxb-git
     - arcolinux-obmenu-generator-git
     - arcolinux-logout-git
     - arcolinux-oblogout
