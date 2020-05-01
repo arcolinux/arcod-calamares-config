@@ -13,3 +13,6 @@
     - nemo-fileroller
     - pcmanfm
     - ranger
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
