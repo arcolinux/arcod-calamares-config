@@ -324,6 +324,7 @@
     - dmenu
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
+    - gmrun
 - name: "Desktop: Xmonad"
   description: "Installs xmonad desktop"
   critical: false
