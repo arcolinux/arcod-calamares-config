@@ -203,7 +203,13 @@
     - arcolinux-lxqt-dconf-git
     - lxqt-arc-dark-theme-git
     - arcolinux-qt5-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-xfce-git
     - xfce4-terminal
+    - xfce4-taskmanager
+    - xfce4-screenshooter
     - dmenu
     - arcolinux-tweak-tool-git
 - name: "Desktop: Mate"
@@ -217,8 +223,14 @@
     - arcolinux-mate-git
     - arcolinux-config-mate-git
     - arcolinux-mate-dconf-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-xfce-git
     - xfce4-terminal
+    - gnome-screenshot
     - arcolinux-tweak-tool-git
+    - dmenu
 - name: "Desktop: Openbox"
   description: "Installs openbox desktop"
   critical: false
@@ -253,6 +265,8 @@
     - thunar-volman
     - arcolinux-xfce-git
     - xfce4-terminal
+    - xfce-taskmanager
+    - xfce4-setings
     - picom
     - gmrun
     - arcolinux-tweak-tool-git
