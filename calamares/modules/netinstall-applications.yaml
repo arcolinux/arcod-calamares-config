@@ -3,6 +3,7 @@
   critical: false
   hidden: false
   selected: false
+  expanded: true
   packages:
     - cheese
     - font-manager-git
@@ -29,27 +30,12 @@
     - arcolinux-conky-collection-git
     - yad
     - arcolinux-pipemenus-git
-- name: "File Manager"
-  description: "Filemanager"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - caja
-    - dolphin
-    - mc
-    - nautilus
-    - nemo
-    - nemo-fileroller
-    - pcmanfm
-    - ranger
-    - thunar
-    - thunar-archive-plugin
 - name: "Fonts"
   description: "Fonts"
   critical: false
   hidden: false
   selected: false
+  expanded: true
   packages:
     - adobe-source-sans-pro-fonts
     - awesome-terminal-fonts
@@ -64,44 +50,30 @@
     - ttf-roboto
     - ttf-ubuntu-font-family
 - name: "Git"
-  description: "Git"
+  description: "Git applications"
   critical: false
   hidden: false
   selected: false
+  expanded: true
   packages:
     - gitahead-bin
     - gitg
     - gitfiend
     - gitkraken
-- name: "Graphics"
-  description: "Graphics"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - blender
-    - darktable
-    - digikam
-    - gimp
-    - gpick
-    - inkscape
-    - krita
-    - nitrogen
-    - nomacs
-    - pinta
-    - ristretto
 - name: "Fun"
-  description: "Fun"
+  description: "Fun script from ArcoLinux"
   critical: false
   hidden: false
   selected: false
+  expanded: true
   packages:
     - arcolinux-meta-fun
 - name: "Password Manager"
-  description: "Password manager"
+  description: "Password managers"
   critical: false
   hidden: false
   selected: false
+  expanded: true
   packages:
     - bitwarden-bin
     - enpass-bin
@@ -112,33 +84,17 @@
   critical: false
   hidden: false
   selected: false
+  expanded: true
   packages:
     - tor-browser
     - tor
     - privoxy
-- name: "Terminals"
-  description: "Terminals"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - alacritty
-    - arcolinux-termite-themes-git
-    - gnome-terminal
-    - guake
-    - kitty
-    - konsole
-    - lxterminal
-    - sakura
-    - terminator
-    - tilix
-    - tilda
-    - tmux
 - name: "Usb"
-  description: "Usb"
+  description: "Usb writing applications"
   critical: false
   hidden: false
   selected: false
+  expanded: true
   packages:
     - etcher-bin
     - imagewriter
@@ -149,6 +105,7 @@
   critical: false
   hidden: false
   selected: false
+  expanded: false
   packages:
     - virtualbox
     - virtualbox-host-dkms
@@ -158,6 +115,7 @@
   critical: false
   hidden: false
   selected: false
+  expanded: false
   packages:
     - virtualbox
     - virtualbox-host-dkms
