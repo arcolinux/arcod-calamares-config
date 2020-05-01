@@ -271,6 +271,9 @@
     - xfce4-screenshooter
     - picom
     - gmrun
+    - rofi
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: Plasma"
