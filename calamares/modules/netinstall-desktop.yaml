@@ -67,6 +67,7 @@
     - arcolinux-config-budgie-git
     - arcolinux-budgie-dconf-git
     - guake
+    - ttf-hack
     - arcolinux-tweak-tool-git
 - name: "Desktop: Cinnamon"
   description: "Installs cinnamon desktop"
@@ -83,6 +84,7 @@
     - arcolinux-cinnamon-dconf-git
     - xfce4-terminal
     - arcolinux-tweak-tool-git
+    - arcolinux-xfce-git
 - name: "Desktop: Deepin"
   description: "Installs deepin desktop"
   critical: false
@@ -107,6 +109,7 @@
     - arcolinux-config-gnome-git
     - arcolinux-gnome-dconf-git
     - guake
+    - ttf-hack
     - arcolinux-tweak-tool-git
 - name: "Desktop: Herbstluftwm"
   description: "Installs herbstluftwm desktop"
