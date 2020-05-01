@@ -20,6 +20,7 @@
     - xfce4-terminal
     - picom
     - feh
+    - gmrun
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: Bspwm"
@@ -49,6 +50,7 @@
     - xfce4-terminal
     - picom
     - feh
+    - gmrun
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: Budgie"
@@ -131,6 +133,7 @@
     - xfce4-terminal
     - picom
     - feh
+    - gmrun
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: i3"
@@ -248,6 +251,7 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - picom
+    - gmrun
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: Plasma"
@@ -302,6 +306,7 @@
     - xfce4-terminal
     - picom
     - feh
+    - gmrun
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
 - name: "Desktop: Xfce"
@@ -349,5 +354,6 @@
     - xfce4-terminal
     - picom
     - feh
+    - gmrun
     - arcolinux-tweak-tool-git
     - arcolinux-local-xfce4-git
