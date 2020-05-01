@@ -25,6 +25,7 @@
   critical: false
   hidden: false
   selected: false
+  expanded: true
   packages:
     - conky-lua-archers
     - arcolinux-conky-collection-git
@@ -126,6 +127,7 @@
   critical: false
   hidden: false
   selected: false
+  expanded: true
   packages:
     - zsh
     - zsh-completions
