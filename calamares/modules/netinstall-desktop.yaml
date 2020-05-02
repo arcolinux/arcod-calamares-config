@@ -201,6 +201,7 @@
     - arcolinux-lxqt-git
     - arcolinux-config-lxqt-git
     - arcolinux-lxqt-dconf-git
+    - arcolinux-logout-git
     - lxqt-arc-dark-theme-git
     - arcolinux-qt5-git
     - thunar
