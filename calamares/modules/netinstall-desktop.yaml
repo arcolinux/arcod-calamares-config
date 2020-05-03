@@ -15,6 +15,7 @@
     - arcolinux-config-awesome-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -43,6 +44,7 @@
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -64,6 +66,7 @@
     - arcolinux-budgie-git
     - arcolinux-config-budgie-git
     - arcolinux-budgie-dconf-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
 - name: "Desktop: Cinnamon"
   description: "Installs cinnamon desktop"
@@ -82,6 +85,7 @@
     - arcolinux-cinnamon-git
     - arcolinux-config-cinnamon-git
     - arcolinux-cinnamon-dconf-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - xfce4-terminal
@@ -96,6 +100,7 @@
     - arcolinux-deepin-git
     - arcolinux-config-deepin-git
     - arcolinux-deepin-dconf-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
 - name: "Desktop: Gnome"
   description: "Installs gnome desktop"
@@ -110,6 +115,7 @@
     - arcolinux-gnome-git
     - arcolinux-config-gnome-git
     - arcolinux-gnome-dconf-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
 - name: "Desktop: Herbstluftwm"
   description: "Installs herbstluftwm desktop"
@@ -132,6 +138,7 @@
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -156,6 +163,7 @@
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -180,6 +188,7 @@
     - arcolinux-jwm-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -206,7 +215,7 @@
     - arcolinux-logout-git
     - arcolinux-lxqt-dconf-git
     - arcolinux-lxqt-git
-    - arcolinux-qt5-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -229,6 +238,7 @@
     - arcolinux-config-mate-git
     - arcolinux-mate-dconf-git
     - arcolinux-mate-git
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -270,6 +280,7 @@
     - arcolinux-pipemenus-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
+    - arcolinux-root-git    
     - arcolinux-tint2-git
     - arcolinux-tint2-themes-git
     - arcolinux-tweak-tool-git
@@ -303,6 +314,7 @@
     - arcolinux-plasma-git
     - arcolinux-config-plasma-git
     - arcolinux-plasma-dconf-git
+    - arcolinux-root-git   
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git    
     - thunar
@@ -326,6 +338,7 @@
     - arcolinux-logout-git
     - arcolinux-qtile-git
     - arcolinux-qtile-dconf-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -345,6 +358,7 @@
     - arcolinux-config-xfce-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-dconf-git
     - arcolinux-xfce-git
@@ -371,6 +385,7 @@
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-root-git    
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - arcolinux-xmonad-dconf-git
