@@ -153,6 +153,7 @@
   packages:
     - i3-gaps
     - i3status
+    - autotiling
     - dmenu
     - feh
     - picom
