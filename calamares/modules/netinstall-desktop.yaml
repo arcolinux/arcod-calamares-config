@@ -303,8 +303,7 @@
     - breeze     
     - cryfs 
     - kde-applications-meta
-    - kdeadmin-meta
-    - kdebase-meta
+    - kde-system-meta
     - kdeconnect
     - ktorrent
     - ocs-url
