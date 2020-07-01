@@ -366,6 +366,7 @@
     - mate-menus
     - mate-terminal
     - mate-system-monitor
+    - mate-control-center
     - thunar
     - thunar-archive-plugin
     - thunar-volman
