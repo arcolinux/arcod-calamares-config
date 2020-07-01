@@ -31,7 +31,7 @@
     - bspwm
     - awesome-terminal-fonts
     - dmenu
-    - feh    
+    - feh
     - gmrun
     - picom
     - polybar
@@ -44,7 +44,7 @@
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -66,7 +66,7 @@
     - arcolinux-budgie-git
     - arcolinux-config-budgie-git
     - arcolinux-budgie-dconf-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
 - name: "Desktop: Cinnamon"
   description: "Installs cinnamon desktop"
@@ -85,7 +85,7 @@
     - arcolinux-cinnamon-git
     - arcolinux-config-cinnamon-git
     - arcolinux-cinnamon-dconf-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - xfce4-terminal
@@ -100,7 +100,7 @@
     - arcolinux-deepin-git
     - arcolinux-config-deepin-git
     - arcolinux-deepin-dconf-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
 - name: "Desktop: Gnome"
   description: "Installs gnome desktop"
@@ -115,7 +115,7 @@
     - arcolinux-gnome-git
     - arcolinux-config-gnome-git
     - arcolinux-gnome-dconf-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
 - name: "Desktop: Herbstluftwm"
   description: "Installs herbstluftwm desktop"
@@ -127,7 +127,7 @@
     - awesome-terminal-fonts
     - dmenu
     - feh
-    - gmrun    
+    - gmrun
     - picom
     - polybar
     - sxhkd
@@ -138,7 +138,7 @@
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -164,7 +164,7 @@
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -181,7 +181,7 @@
     - autorandr
     - dmenu
     - feh
-    - picom    
+    - picom
     - sxhkd
     - xdgmenumaker
     - arcolinux-config-jwm-git
@@ -189,7 +189,7 @@
     - arcolinux-jwm-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -216,7 +216,7 @@
     - arcolinux-logout-git
     - arcolinux-lxqt-dconf-git
     - arcolinux-lxqt-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
@@ -258,14 +258,14 @@
     - geany
     - gksu
     - gmrun
-    - gnome-screenshot    
+    - gnome-screenshot
     - gtk2-perl
     - nitrogen
     - obconf
     - obmenu3
     - obmenu-generator
     - perl-linux-desktopfiles
-    - picom    
+    - picom
     - rofi
     - tint2
     - xcape
@@ -281,7 +281,7 @@
     - arcolinux-pipemenus-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tint2-git
     - arcolinux-tint2-themes-git
     - arcolinux-tweak-tool-git
@@ -300,8 +300,8 @@
   selected: false
   packages:
     - plasma-meta
-    - breeze     
-    - cryfs 
+    - breeze
+    - cryfs
     - kde-applications-meta
     - kde-system-meta
     - kdeconnect
@@ -314,9 +314,9 @@
     - arcolinux-plasma-git
     - arcolinux-config-plasma-git
     - arcolinux-plasma-dconf-git
-    - arcolinux-root-git   
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git    
+    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -329,7 +329,7 @@
     - qtile
     - awesome-terminal-fonts
     - dmenu
-    - feh    
+    - feh
     - gmrun
     - picom
     - python-psutil
@@ -338,13 +338,33 @@
     - arcolinux-logout-git
     - arcolinux-qtile-git
     - arcolinux-qtile-dconf-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
     - xfce4-terminal
+- name: "Desktop: Ukui"
+  description: "Installs ukui desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - ukui
+    - redshift
+    - gnome-screenshot
+    - qt5-quickcontrols
+    - arcolinux-root-git
+    - arcolinux-tweak-tool-git
+    - arcolinux-config-ukui-git
+    - arcolinux-ukui-dconf-git
+    - arcolinux-ukui-git
+    - arcolinux-qt5-git
+    - mate-desktop
+    - mate-menus
+    - mate-terminal
+    - mate-system-monitor
 - name: "Desktop: Xfce"
   description: "Installs xfce desktop"
   critical: false
@@ -358,7 +378,7 @@
     - arcolinux-config-xfce-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-dconf-git
     - arcolinux-xfce-git
@@ -372,7 +392,7 @@
     - xmonad-contrib
     - awesome-terminal-fonts
     - dmenu
-    - feh   
+    - feh
     - gmrun
     - haskell-dbus
     - perl-checkupdates-aur
@@ -385,7 +405,7 @@
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
-    - arcolinux-root-git    
+    - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - arcolinux-xmonad-dconf-git
