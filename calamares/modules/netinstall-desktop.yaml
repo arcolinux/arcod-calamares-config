@@ -373,6 +373,7 @@
     - xfce4-terminal
     - accountsservice
     - gvfs
+    - dmenu
 - name: "Desktop: Xfce"
   description: "Installs xfce desktop"
   critical: false
