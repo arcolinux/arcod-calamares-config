@@ -360,11 +360,18 @@
     - arcolinux-config-ukui-git
     - arcolinux-ukui-dconf-git
     - arcolinux-ukui-git
+    - arcolinux-xfce-git
     - arcolinux-qt5-git
     - mate-desktop
     - mate-menus
     - mate-terminal
     - mate-system-monitor
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - xfce4-terminal
+    - accountsservice
+    - gvfs
 - name: "Desktop: Xfce"
   description: "Installs xfce desktop"
   critical: false
