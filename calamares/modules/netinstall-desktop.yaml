@@ -345,6 +345,36 @@
     - thunar-archive-plugin
     - thunar-volman
     - xfce4-terminal
+- name: "Desktop: Spectrwm"
+  description: "Installs spectrwm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - spectrwm
+    - awesome-terminal-fonts
+    - dmenu
+    - feh
+    - gmrun
+    - picom
+    - arcolinux-config-spectrwm-git
+    - arcolinux-local-xfce4-git
+    - arcolinux-logout-git
+    - arcolinux-spectrwm-git
+    - arcolinux-spectrwm-dconf-git
+    - arcolinux-root-git
+    - arcolinux-tweak-tool-git
+    - arcolinux-xfce-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - xfce4-terminal
+    - sxhkd
+    - sutils-git
+    - xtitle-git
+    - xdo
+    - polybar
+    - arcolinux-polybar-git
 - name: "Desktop: Ukui"
   description: "Installs ukui desktop"
   critical: false
