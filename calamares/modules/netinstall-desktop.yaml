@@ -375,6 +375,7 @@
     - xdo
     - polybar
     - arcolinux-polybar-git
+    - accountsservice
 - name: "Desktop: Ukui"
   description: "Installs ukui desktop"
   critical: false
@@ -403,6 +404,7 @@
     - xfce4-terminal
     - gvfs
     - dmenu
+    - accountsservice
 - name: "Desktop: Xfce"
   description: "Installs xfce desktop"
   critical: false
