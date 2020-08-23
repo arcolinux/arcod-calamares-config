@@ -401,7 +401,6 @@
     - thunar-archive-plugin
     - thunar-volman
     - xfce4-terminal
-    - accountsservice
     - gvfs
     - dmenu
 - name: "Desktop: Xfce"
