@@ -171,6 +171,29 @@
     - thunar-archive-plugin
     - thunar-volman
     - xfce4-terminal
+- name: "Desktop: Icewm"
+  description: "Installs icewm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - icewm
+    - xdgmenumaker    
+    - dmenu
+    - feh
+    - picom
+    - arcolinux-config-icewm-git
+    - arcolinux-icewm-git
+    - arcolinux-icewm-dconf-git
+    - arcolinux-local-xfce4-git
+    - arcolinux-logout-git
+    - arcolinux-root-git
+    - arcolinux-tweak-tool-git
+    - arcolinux-xfce-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - xfce4-terminal
 - name: "Desktop: Jwm"
   description: "Installs jwm desktop"
   critical: false
