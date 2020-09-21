@@ -178,7 +178,7 @@
   selected: false
   packages:
     - icewm
-    - xdgmenumaker    
+    - xdgmenumaker
     - dmenu
     - feh
     - picom
@@ -194,6 +194,8 @@
     - thunar-archive-plugin
     - thunar-volman
     - xfce4-terminal
+    - xfce4-power-manager
+    - xfce4-setttings    
 - name: "Desktop: Jwm"
   description: "Installs jwm desktop"
   critical: false
