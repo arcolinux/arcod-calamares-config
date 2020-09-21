@@ -195,7 +195,7 @@
     - thunar-volman
     - xfce4-terminal
     - xfce4-power-manager
-    - xfce4-setttings    
+    - xfce4-settings    
 - name: "Desktop: Jwm"
   description: "Installs jwm desktop"
   critical: false
