@@ -322,7 +322,6 @@
     - arcolinux-mate-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - xfce4-terminal
 - name: "Desktop: Openbox"
   description: "Installs openbox desktop"
