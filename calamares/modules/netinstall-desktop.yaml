@@ -87,7 +87,6 @@
     - arcolinux-cinnamon-dconf-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - xfce4-terminal
 - name: "Desktop: Cwm"
   description: "Installs cwm desktop"
@@ -324,9 +323,6 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
     - xfce4-terminal
 - name: "Desktop: Openbox"
   description: "Installs openbox desktop"
@@ -398,10 +394,6 @@
     - arcolinux-plasma-dconf-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
 - name: "Desktop: Qtile"
   description: "Installs qtile desktop"
   critical: false
