@@ -43,15 +43,39 @@
   packages:
     - adobe-source-sans-pro-fonts
     - awesome-terminal-fonts
-    - terminus-font
+    - ttf-anonymous-pro
     - ttf-bitstream-vera
+    - ttf-caladea
+    - ttf-carlito
+    - ttf-cascadia-code
+    - ttf-cormorant
+    - ttf-croscore
     - ttf-droid
+    - ttf-eurof
+    - ttf-fantasque-sans-mono
     - ttf-fira-code
+    - ttf-fira-mono
+    - ttf-fira-sans
     - ttf-font-awesome
     - ttf-hack
+    - ttf-hactor
+    - ttf-hellvetica
+    - ttf-ibm-plex
     - ttf-inconsolata
+    - ttf-jetbrains-mono
+    - ttf-joypixels
+    - ttf-lato
     - ttf-liberation
     - ttf-roboto
+    - ttf-roboto-mono
+    - ttf-linux-libertine
+    - ttf-linux-libertine-g
+    - ttf-monofur
+    - ttf-ms-fonts
+    - ttf-nerd-fonts-symbols
+    - ttf-nerd-fonts-symbols-mono
+    - ttf-opensans
+    - ttf-proggy-clean
     - ttf-ubuntu-font-family
 - name: "Git"
   description: "Git applications"
