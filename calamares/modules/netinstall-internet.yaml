@@ -5,7 +5,7 @@
   selected: false
   expanded: true
   packages:
-    - brave
+    - brave-bin
     - chromium
     - deluge
     - dropbox
@@ -18,19 +18,20 @@
     - firefox-ublock-origin
     - geary
     - google-chrome
-    - hexchat
     - insync
     - ktorrent
     - librewolf-bin
+    - megasync-bin
     - midori
     - min
     - netsurf
     - nextcloud-client
     - opera
-    - pidgin
     - qbittorrent
     - qutebrowser
     - thunderbird
-    - torbrowser-launcher
+    - torbrowser
     - transmission-gtk
     - vivaldi
+    - vivaldi-ffmpeg-codecs
+    - vivaldi-widevine

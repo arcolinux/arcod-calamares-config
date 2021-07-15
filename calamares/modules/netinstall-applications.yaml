@@ -11,7 +11,7 @@
     - gpick
     - flameshot-git
     - liferea
-    - mediainfo
+    - mediainfo-gui
     - mcomix
     - nitrogen
     - nomacs
@@ -20,9 +20,6 @@
     - arcolinux-plank-themes-git
     - screenkey-git
     - variety
-    - arcolinux-variety-git
-    - vim-plugins
-    - xfburn
 - name: "Conky"
   description: "Conky and conky collection"
   critical: false
@@ -30,53 +27,10 @@
   selected: false
   expanded: true
   packages:
-    - conky-lua-archers
     - arcolinux-conky-collection-git
-    - yad
     - arcolinux-pipemenus-git
-- name: "Fonts"
-  description: "Fonts"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - adobe-source-sans-pro-fonts
-    - awesome-terminal-fonts
-    - ttf-anonymous-pro
-    - ttf-bitstream-vera
-    - ttf-caladea
-    - ttf-carlito
-    - ttf-cascadia-code
-    - ttf-cormorant
-    - ttf-croscore
-    - ttf-droid
-    - ttf-eurof
-    - ttf-fantasque-sans-mono
-    - ttf-fira-code
-    - ttf-fira-mono
-    - ttf-fira-sans
-    - ttf-font-awesome
-    - ttf-hack
-    - ttf-hactor
-    - ttf-hellvetica
-    - ttf-ibm-plex
-    - ttf-inconsolata
-    - ttf-jetbrains-mono
-    - ttf-joypixels
-    - ttf-lato
-    - ttf-liberation
-    - ttf-roboto
-    - ttf-roboto-mono
-    - ttf-linux-libertine
-    - ttf-linux-libertine-g
-    - ttf-monofur
-    - ttf-ms-fonts
-    - ttf-nerd-fonts-symbols
-    - ttf-nerd-fonts-symbols-mono
-    - ttf-opensans
-    - ttf-proggy-clean
-    - ttf-ubuntu-font-family
+    - conky-lua-archers
+    - yad
 - name: "Git"
   description: "Git applications"
   critical: false
@@ -88,14 +42,6 @@
     - gitg
     - gitfiend
     - gitkraken
-- name: "Fun"
-  description: "Fun script from ArcoLinux"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - arcolinux-meta-fun
 - name: "Password Manager"
   description: "Password managers"
   critical: false
@@ -117,17 +63,6 @@
     - tor-browser
     - tor
     - privoxy
-- name: "Usb"
-  description: "Usb writing applications"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - etcher-bin
-    - imagewriter
-    - mintstick-git
-    - woeusb
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"
   critical: false
@@ -159,5 +94,7 @@
     - zsh
     - zsh-completions
     - zsh-syntax-highlighting
-    - oh-my-zsh-git
+    - zsh-theme-powerlevel10k-git
     - arcolinux-zsh-git
+    - oh-my-zsh-git
+    - oh-my-zsh-powerline-theme-git
