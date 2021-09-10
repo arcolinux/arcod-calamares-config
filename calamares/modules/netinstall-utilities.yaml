@@ -75,7 +75,6 @@
     - bpytop
     - cpufetch-git
     - cpu-x
-    - dmidecode
     - glances
     - gotop-bin
     - gtop
