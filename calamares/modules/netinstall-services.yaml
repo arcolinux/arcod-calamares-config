@@ -17,6 +17,7 @@
   critical: false
   packages:
     - tlp
+    - powertop
 - name: "Network Discovery"
   description: "Support for network discovery - enable service"
   hidden: false
@@ -34,20 +35,19 @@
   packages:
     - cups
     - cups-pdf
-    - cups-filters
-    - gtk3-print-backends
-    - ghostscript
-    - gsfonts
+    - cups-pk-helper
     - foomatic-db-engine
     - foomatic-db
     - foomatic-db-ppds
     - foomatic-db-nonfree
     - foomatic-db-nonfree-ppds
-    - gutenprint
     - foomatic-db-gutenprint-ppds
-    - system-config-printer
+    - ghostscript
+    - gsfonts
+    - gutenprint
     - hplip
-    - libcups
+    - splix
+    - system-config-printer
 - name: "Samba"
   description: "Support for samba - enable service"
   hidden: false
@@ -83,7 +83,7 @@
   critical: false
   packages:
     - pipewire
-    - pipewire-media-session
+    - wireplumber
     - pipewire-alsa
     - pipewire-jack
     - pipewire-zeroconf
