@@ -91,11 +91,10 @@
   critical: false
   packages:
     - pipewire
-    - wireplumber
+    - pipewire-pulse
     - pipewire-alsa
     - pipewire-jack
     - pipewire-zeroconf
-    - pipewire-pulse
     - pavucontrol
     - alsa-utils
     - alsa-plugins
