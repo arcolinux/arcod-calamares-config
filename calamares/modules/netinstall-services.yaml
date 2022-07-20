@@ -9,6 +9,14 @@
     - bluez
     - bluez-libs
     - bluez-utils
+- name: "Bluetooth application"
+  description: "Choose the app you prefer"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - blueman
     - blueberry
 - name: "Laptop Support"
   description: "Support for laptops - enable service"
