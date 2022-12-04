@@ -1,0 +1,16 @@
+- name: "Desktop: Hyprland - WAYLAND"
+  description: "Installs hyprland - not on VB - not with nvidia gpu"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: false
+  expanded: false
+  packages:
+    - arcolinux-hyprland-git
+- name: "Desktop: Sway - WAYLAND"
+  description: "Installs sway - not on VB - not with nvidia gpu"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-sway-git
