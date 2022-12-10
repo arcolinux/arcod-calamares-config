@@ -7,6 +7,7 @@
   expanded: true
   packages:
     - arcolinux-hyprland-git
+    - arcolinux-wayland-profile-git
     - arcolinux-hyprland-profile-git
 - name: "Desktop: Sway - WAYLAND"
   description: "Installs sway - not on VB - not with nvidia gpu driver"
@@ -17,4 +18,5 @@
   expanded: true
   packages:
     - arcolinux-sway-git
+    - arcolinux-wayland-profile-git
     - arcolinux-sway-profile-git
