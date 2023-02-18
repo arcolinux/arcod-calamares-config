@@ -111,6 +111,7 @@
     - btop
     - cpufetch-git
     - cpu-x
+    - dmidecode
     - glances
     - gotop-bin
     - gsmartcontrol
@@ -145,8 +146,8 @@
     - catfish
     - deja-dup
     - fancontrol-gui-git
-    - gammy
     - galculator
+    - gammy
     - google-earth-pro
     - grsync
     - gufw
