@@ -29,7 +29,7 @@
     - ttf-fira-mono
     - ttf-fira-sans
     - ttf-font-awesome
-    - ttf-hack    
+    - ttf-hack
     - ttf-hactor
     - ttf-hellvetica
     - ttf-ibm-plex
@@ -46,8 +46,8 @@
     - ttf-mac-fonts
     - ttf-monofur
     - ttf-ms-fonts
-    - ttf-nerd-fonts-symbols-1000-em
-    - ttf-nerd-fonts-symbols-1000-em-mono
+    - ttf-nerd-fonts-symbols
+    - ttf-nerd-fonts-symbols-mono
     - ttf-opensans
     - ttf-proggy-clean
     - ttf-roboto
