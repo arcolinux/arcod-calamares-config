@@ -73,16 +73,15 @@
     - swaybg
     - swayidle
     - swaylock
+    - swww
+    - thunar
+    - ttf-jetbrains-mono-nerd
+    - waybar
     - wayfire-git
     - wayfire-plugins-extra-git
     - wcm-git
     - wf-kill-git
     - wf-shell-git
-    - swww
-    - thunar
-    - ttf-jetbrains-mono-nerd
-    - waybar
     - wofi
     - xdg-desktop-portal-wlr
     - xfce4-terminal
-
