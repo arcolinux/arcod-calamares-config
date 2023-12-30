@@ -70,6 +70,7 @@
     - mako
     - polkit-gnome
     - rofi-lbonn-wayland
+    - slurp
     - swaybg
     - swayidle
     - swaylock
@@ -83,6 +84,7 @@
     - wcm-git
     - wf-kill-git
     - wf-shell-git
+    - wl-clipboard
     - wofi
     - xdg-desktop-portal-wlr
     - xfce4-terminal
