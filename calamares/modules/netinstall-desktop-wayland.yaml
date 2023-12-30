@@ -43,4 +43,46 @@
     - swaylock
     - ttf-iosevka-nerd
     - waybar
+- name: "Desktop: Wayfire - Wayland"
+  description: "Installs wayfire - only on real metal"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: false
+  expanded: true
+  packages:
+    - a-candy-beauty-icon-theme-git
+    - archlinux-logout-git
+    - arcolinux-foot-git
+    - arcolinux-kitty-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-wayfire-dconf-git
+    - arcolinux-wayfire-git
+    - arcolinux-wayfire-profile-git
+    - arcolinux-wayland-profile-git
+    - arcolinux-xfce-git
+    - feh
+    - foot
+    - grim 
+    - kitty
+    - libdisplay-info
+    - mako
+    - polkit-gnome
+    - rofi-lbonn-wayland
+    - swaybg
+    - swayidle
+    - swaylock
+    - wayfire-git
+    - wayfire-plugins-extra-git
+    - wcm-git
+    - wf-kill-git
+    - wf-shell-git
+    - swww
+    - thunar
+    - ttf-jetbrains-mono-nerd
+    - waybar
+    - wofi
+    - xdg-desktop-portal-wlr
+    - xfce4-terminal
 
