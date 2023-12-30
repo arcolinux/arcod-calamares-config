@@ -64,7 +64,7 @@
     - arcolinux-xfce-git
     - feh
     - foot
-    - grim 
+    - grim
     - kitty
     - libdisplay-info
     - mako
@@ -75,6 +75,7 @@
     - swaylock
     - swww
     - thunar
+    - ttf-font-awesome
     - ttf-jetbrains-mono-nerd
     - waybar
     - wayfire-git
