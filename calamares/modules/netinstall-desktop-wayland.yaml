@@ -4,7 +4,7 @@
   hidden: false
   selected: false
   immutable: false
-  expanded: true
+  expanded: false
   packages:
     - archlinux-logout-git
     - arcolinux-hyprland-git
@@ -23,7 +23,7 @@
   hidden: false
   selected: false
   immutable: false
-  expanded: true
+  expanded: false
   packages:
     - archlinux-logout-git
     - arcolinux-kitty-git
@@ -33,7 +33,7 @@
     - nwg-drawer-bin
     - rofi-lbonn-wayland-only-git
     - thunar
-    - sway-dev
+    - sway
     - swaybg
     - swayidle
     - swaylock
@@ -45,7 +45,7 @@
   hidden: false
   selected: false
   immutable: false
-  expanded: true
+  expanded: false
   packages:
     - a-candy-beauty-icon-theme-git
     - archlinux-logout-git
